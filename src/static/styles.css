@@ -74,6 +74,78 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #eef6ff;
+  border-radius: 4px;
+  border: 1px solid #b3c6e7;
+}
+
+.participants-section strong {
+  color: #1a237e;
+  font-size: 15px;
+}
+
+.participants-list {
+  margin: 8px 0 0 0;
+  padding-left: 0;
+  list-style-type: none;
+  color: #333;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.participants-list li {
+  margin-bottom: 0;
+  padding: 2px 0;
+  word-break: break-all;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  transition: box-shadow 0.2s;
+}
+
+.participant-email {
+  flex: 1;
+  padding-left: 6px;
+}
+
+.delete-participant {
+  background: #c62828;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.delete-participant:hover {
+  background: #b71c1c;
+}
+}
+
+.no-participants {
+  color: #888;
+  font-style: italic;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
